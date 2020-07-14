@@ -1,0 +1,88 @@
+{
+    "smartphone":{
+        "phone1":{
+            "i-name":"Samsung A51",
+            "i-price":25000,
+            "i-img":"https://rukminim1.flixcart.com/image/416/416/k62i5jk0/mobile/c/n/s/samsung-galaxy-a51-sm-a515fzbhins-original-imafzhr4cqc4wqnf.jpeg?q=70",
+            "i-caption":"48MP Quad Cam",
+            "i-desc":[
+                "6 GB RAM | 128 GB ROM | Expandable Upto 512 GB",
+                "16.26 cm (6.4 inch) Full HD+ Display",
+                "48MP + 12MP + 5MP + 5MP | 32MP Front Camera",
+                "4000 mAh Lithium-ion Battery",
+                "Exynos 9611 Processor"
+            ]
+        },
+        "phone2":{
+            "i-name":"Motorola One Vision",
+            "i-price":14000,
+            "i-img":"https://rukminim1.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/m/5/p/na-128-a-pafb0023in-motorola-4-original-imafhmzvrhbrzs5c.jpeg?q=70",
+            "i-caption":"8 GB RAM",
+            "i-desc":[
+                "4 GB RAM | 128 GB ROM | Expandable Upto 256 GB",
+                "16.0 cm (6.3 inch) Full HD+ Display",
+                "48MP + 5MP | 25MP Front Camera",
+                "3500 mAh Battery",
+                "Samsung Exynos 9609 Processor"
+            ]
+        },
+        "phone3":{
+            "i-name":"OPPO Reno3 Pro",
+            "i-price":29000,
+            "i-img":"https://rukminim1.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/3/q/a/reno-10x-zoom-128-b-cph1919-oppo-6-original-imafgwaxgbmhjhzc.jpeg?q=70",
+            "i-caption":"4 GB RAM | 128GB",
+            "i-desc":[
+                "8 GB RAM | 128 GB ROM | Expandable Upto 256 GB",
+                "16.26 cm (6.4 inch) Display",
+                "64MP + 13MP + 8MP + 2MP | 44MP + 2MP Dual Front Camera",
+                "4025 mAh Battery",
+                "MediaTek Helio P95 Processor",
+                "Ultra Steady Video 2.0 and Video Bokeh",
+                "World's 1st 44MP Dual Punch Hole Camera"
+            ]
+        }
+    },
+    "television":{
+        "tele1":{
+            "i-name":"Motorola Full HD LED Smart Android TV",
+            "i-price":24999,
+            "i-img":"https://rukminim1.flixcart.com/image/416/416/k3hmj680/television/z/a/n/motorola-32safhdm-original-imafm59fzeshmauz.jpeg?q=70",
+            "i-caption":"FHD - Android TV",
+            "i-desc":[
+                "Supported Apps: Netflix|Prime Video|Disney+Hotstar|Youtube",
+                "Operating System: Android (Google Assistant & Chromecast in-built)",
+                "Resolution: Full HD 1920 x 1080 Pixels",
+                "Sound Output: 20 W",
+                "Refresh Rate: 60 Hz"
+            ]
+        },
+        "tele2":{
+            "i-name":"Panasonic Ultra HD (4K) LED Smart TV",
+            "i-price":54000,
+            "i-img":"https://rukminim1.flixcart.com/image/416/416/k13w4280/television/q/t/n/panasonic-th-49gx500dx-original-imafknqgtmxuumy7.jpeg?q=70",
+            "i-caption":"Ultra HD - Smart TV",
+            "i-desc":[
+                "Supported Apps: Netflix|Prime Video|Youtube",
+                "Operating System: Linux",
+                "Resolution: Ultra HD (4K) 3840 x 2160 Pixels",
+                "Sound Output: 20 W",
+                "Refresh Rate: 100 Hz"
+            ]
+        },
+        "tele3":{
+            "i-name":"Samsung Ultra HD (4K) LED Smart TV",
+            "i-price":129000,
+            "i-img":"https://rukminim1.flixcart.com/image/416/416/k1xwcy80/television/v/p/m/samsung-ua65ru8000kxxl-original-imafhc5jhmgwbepj.jpeg?q=70",
+            "i-caption":"4 GB RAM | 128GB",
+            "i-desc":[
+                "8 GB RAM | 128 GB ROM | Expandable Upto 256 GB",
+                "16.26 cm (6.4 inch) Display",
+                "64MP + 13MP + 8MP + 2MP | 44MP + 2MP Dual Front Camera",
+                "4025 mAh Battery",
+                "MediaTek Helio P95 Processor",
+                "Ultra Steady Video 2.0 and Video Bokeh",
+                "World's 1st 44MP Dual Punch Hole Camera"
+            ]
+        }
+    }
+}

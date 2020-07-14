@@ -1,0 +1,350 @@
+/* Nile Website - Styles */
+
+
+*{
+    transition: 0.4s;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+/* ---------------------Text Sizes */
+.n-text-large{font-size: 25px !important;}
+
+.n-text{font-size: 15px !important;}
+
+.n-text-small{font-size: 10px !important;}
+
+.fa{
+  font-size: 20px !important;
+  margin-right: 10px;
+}
+
+/* ---------------------Positioning */
+
+/* Positioning Text - https://www.w3schools.com/css/css_positioning.asp */
+.n-left{ float: left;}
+
+.n-right{ float: right;}
+
+.n-center{text-align: center;}
+
+/* ---------------------Custom Elements */
+.n-navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    contain: content;
+    z-index: 1;
+}
+
+.n-selected-bar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.n-selected-item{
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+    margin: 10px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.n-selected-number{
+  position: absolute;
+  bottom: -21px;
+  right: -6px;
+  border: 1px black;
+  color: white;
+  background-color: orange;
+  border-radius: 20px;
+  width: 10px;
+  border-style: solid;
+  padding-left: 4px;
+  padding-right: 4px;
+  user-select: none;
+}
+
+
+.n-selected-close{
+  position: absolute;
+  top: -4px;
+  right: 0px;
+  width: 8px;
+  opacity: 10%;
+}
+.n-selected-item:hover .n-selected-close{color: black;opacity: 90%;}
+
+.n-info{
+  position: fixed;
+  bottom: 100;
+  right: 5%;
+  opacity: 30%;
+  border-radius: 30px;
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all 0.5s ease-out 0s;
+  opacity: 30%;
+}
+
+.n-info:hover{opacity: 70%!important;}
+
+/* ---------------------Button Styles */
+.n-button{
+  user-select: none;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    appearance: none;
+    border: none;
+    background-color: inherit;
+    color: inherit;
+}
+
+.n-image{height: inherit;}
+
+/* Overides */
+
+a{
+  appearance:none;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.n-nomargin{margin: 0 !important;}
+.n-f-width{width: 100%;}
+.n-f-height{width: 100%;}
+
+
+.n-margin-right{margin-right: 15px;}
+
+.n-fixed-right{
+  right: 0;
+  position: fixed;
+}
+
+.n-fixed-left{
+  left: 0;
+  position: fixed;
+}
+
+.n-inline{ display: inline-flex; }
+/* Colors */
+
+.n-blue{
+  background-color: #21618C !important;
+  color: white;
+}
+.n-blue-hover:hover{
+  background-color: #3498DB;
+  color: black;
+}
+
+.n-text-blue{color: #21618C;}
+
+.n-orange{
+  background-color: #F4D03F !important;
+  color: black;
+}
+.n-orange-hover:hover{
+  background-color: #F9E79F !important;
+  color: black;
+}
+
+.n-text-orange{color: #F4D03F;}
+
+.n-green{
+  background-color: #229954  !important;
+  color: white;
+}
+.n-green-hover:hover{
+  background-color: #58D68D !important;
+  color: black;
+}
+
+.n-red-hover:hover{
+  background-color: #F1948A !important;
+  color: black;
+}
+
+.n-text-green{color: #52BE80;}
+
+.n-bordered{
+  border-style: solid;
+  border-width: thin;
+}
+
+.n-rounded{border-radius: 5px;}
+
+.n-fixed{position: fixed;}
+
+.n-shadow{box-shadow: 1px 1px 10px gray;}
+
+.n-content{
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+/* ------------------item Style */
+.n-items{
+  width:80%;
+  padding: inherit;
+}
+
+.n-category{
+  padding: 10px;
+  text-align: center;
+  user-select: none;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border-radius: 10px;
+}
+
+.n-categories{
+  padding-top: 50px;
+  width:20%;
+
+}
+
+.n-item{
+  height:fit-content;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px gray;
+}
+
+.n-item:hover h3 {
+  color: orange;
+  font-weight: bold;
+}
+
+.n-item:hover p{
+  color: orange;
+}
+
+.n-item:hover img{
+  height:250px !important;
+}
+
+.n-item-price{
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin: 20px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.n-cut{
+  text-decoration: line-through;
+  font-weight: 100;
+  color: gray;
+  font-size: small;
+}
+
+input{
+  width: 50;
+  margin-left: 20px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: lightgray;
+  color: black;
+}
+
+.n-item img{
+  height:200px !important;
+  float:left;
+  width: 300px;
+  object-fit: contain;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.n-item h3{
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  left: 25px;
+  font-size: 20px;
+}
+
+.n-item p{
+  position: relative;
+  left: 25px;
+  color: gray;
+
+}
+
+
+
+/*-----Login form-----------*/
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+.n-logincontent{
+   margin: auto;
+  width: 50%;
+  padding: 10px;
+  padding: 16px;
+}
+
+/* Home Page CSS */
+
+.n-caption-text{
+  font-size: 30px;
+  padding: 30px;
+}
+
+.n-reel-caption{
+  float: right;
+  width: 50%;
+}
+
+.n-showreel{
+  padding:30px;
+  height: 50px;
+}
+
+.n-reel-show{
+  padding: 0px !important;
+}
+
+.n-card{
+  height:fit-content;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px gray;
+}
+
+.n-text-bold{
+  font-weight: bold;
+}
